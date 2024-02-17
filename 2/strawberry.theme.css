@@ -1,0 +1,68 @@
+/**
+ * @name StrawberryTheme
+ * @author Strawberry Productions
+ * @version 1.0.0
+ * @description Amazing theme, and so on.
+ */
+
+/* Credits to Zerthox for making the original theme. */
+
+/* IMPORT CSS */
+@import url(https://clearvision.github.io/ClearVision-v6/main.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Wellfleet&display=swap');
+
+:root {
+  --background-overlay: transparent;
+  --background-image: url('https://raw.githubusercontent.com/geody2000/discord_themes/main/2/bgr.png');
+  --code-font: 'Wellfleet', 'Roboto'; /* font for codeblocks */
+  --main-font: 'Wellfleet', 'Roboto'; /* main font for app */
+  --text-normal: #ddbaa5;
+  --url-color: #FFA500;
+}
+
+.avatar__08316 {
+  border: 2px #5DADEC;
+  border-style: dotted;
+  background-color: black;
+}
+
+.messageContent__21e69 {
+  margin-bottom: 5px;
+}
+
+.messageContent__21e69 span {
+  background-color: #081d388f;
+  animation-name: theAnimation;
+  animation-duration: 1s;
+}
+
+@keyframes theAnimation {
+  0% {
+    opacity: 0;
+  }
+  
+  100% {
+    opacity: 1;
+  }
+}
+
+.messageContent__21e69::before {
+  content: "🍓 ";
+}
+
+.messageContent__21e69::after {
+  content: "🍓 ";
+}
+
+.username_d30d99 {
+  color: #00FFFF;
+  text-decoration: underline;
+}
+
+.username_d30d99::before {
+  content: "🏴‍☠️🍾 ";
+}
+
+.scroller_f0f183 {
+  background-color: #081d38;
+}
